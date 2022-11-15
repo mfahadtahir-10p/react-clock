@@ -1,0 +1,103 @@
+h1,
+p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#clock {
+  border: 1px solid lightblue;
+  box-shadow: 2px 2px 2px lightblue;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  position: relative;
+}
+
+#hour {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5px;
+  height: 200px;
+  /* border: 1px solid red; */
+  background: linear-gradient(180deg, red 50%, white 50%);
+  /* box-shadow: 2px 2px 2px red; */
+  /* transform: rotate(90deg) !important; */
+}
+#min {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5px;
+  height: 200px;
+  /* border: 1px solid red; */
+  background: linear-gradient(180deg, green 50%, white 50%);
+  /* box-shadow: 2px 2px 2px red; */
+  /* transform: rotate(90deg) !important; */
+}
+#sec {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 5px;
+  height: 200px;
+  /* border: 1px solid red; */
+  background: linear-gradient(180deg, blue 50%, transparent 50%);
+  /* box-shadow: 2px 2px 2px red; */
+  /* transform: rotate(90deg) !important; */
+}
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 10px;
+  width: 10px;
+}
+#i12 {
+  transform: rotate(0deg);
+}
+#i1 {
+  transform: rotate(30deg);
+  background-color: brown;
+}
+#i2 {
+  transform: rotate(60deg);
+}
+#i3 {
+  transform: rotate(90);
+}
+#i4 {
+  transform: rotate(120);
+}
+#i5 {
+  transform: rotate(150);
+}
+#i6 {
+  transform: rotate(42);
+}
+#i7 {
+  transform: rotate(48);
+}
+#i8 {
+  transform: rotate(54);
+}
+#i9 {
+  transform: rotate(60);
+}
+#i10 {
+  transform: rotate(6);
+}
+#i11 {
+  transform: rotate(6);
+}
